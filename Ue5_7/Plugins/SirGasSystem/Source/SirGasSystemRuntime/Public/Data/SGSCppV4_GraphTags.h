@@ -1,0 +1,19 @@
+﻿// Copyright (c) 2026 SirotkinAleksandr. All Rights Reserved.
+
+#pragma once
+
+#include "GameplayTagContainer.h"
+#include "NativeGameplayTags.h"
+
+namespace SGSCppGraphTags
+{ 
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Back) 
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Action01) 
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Action02) 
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Action03)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Left)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Right)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Start)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(End)
+	UE_DECLARE_GAMEPLAY_TAG_EXTERN(Continue)
+}
