@@ -1,0 +1,45 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "4.0",
+	"FriendlyName": "SGS | Cpp | SirGasSystem | Gas",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "SirotkinAleksandr",
+	"CreatedByURL": "https://www.linkedin.com/in/alexandr-sirotkin-76r/",
+	"DocsURL": "https://github.com/sirotkin76/SGSCpp",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/DVFQtGXHyA",
+	"EngineVersion": "5.8.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "SirGasSystem",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "SirGasSystemRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}
